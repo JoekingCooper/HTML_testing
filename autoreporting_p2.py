@@ -83,9 +83,9 @@ env = Environment(
 )
 
 # Assemble the templates we'll use
-base_template = env.get_template("report.html")
-summary_section_template = env.get_template("summary_section.html")
-table_section_template = env.get_template("table_section.html")
+base_template = env.get_template("report_p2.html")
+summary_section_template = env.get_template("summary_section_p2.html")
+table_section_template = env.get_template("table_section_p2.html")
 
 
 def main():
