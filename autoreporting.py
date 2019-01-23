@@ -116,7 +116,6 @@ def main():
         dataset=mobilenet_results.dataset,
         table=mobilenet_results.get_results_df_as_html())
     )
-
     # Produce and write the report to file
     with open("outputs/report.html", "w") as f:
         f.write(base_template.render(
